@@ -46,7 +46,7 @@
 - 'git rebase -i main~4 --aboveAll'
 
 ### Grabbing Just 1 Commit
-- 'git checkout master'
+- 'git checkout main'
 - 'git cherry-pick C4'
 
 ### Juggling Commits
@@ -121,7 +121,8 @@
 ### Push Master!
 - 'git checkout -b feature'
 - 'git checkout main'
-- 'git reset --hard o/master'
+- 'git reset --hard o/main!
+'
 - 'git push origin feature'
 - 'git checkout feature'
 
@@ -168,5 +169,15 @@
 ### Pull Arguments
 - 'git pull origin bar:foo'
 - 'git pull origin main:side'
+
+![Captura de pantalla (4)](https://user-images.githubusercontent.com/124651311/226494662-e196352d-b6e3-4c16-b473-9efa03c0cd9c.png)
+![Captura de pantalla (5)](https://user-images.githubusercontent.com/124651311/226494667-7121d383-bf12-43cc-88de-dcd13c621866.png)
+![Captura de pantalla (6)](https://user-images.githubusercontent.com/124651311/226494691-6851f8e4-673c-4b0e-b746-1f5d82b89426.png)
+
+![Imagen1](https://user-images.githubusercontent.com/124651311/226495022-f38aec92-782d-493d-917c-208060422428.png)
+![Imagen2](https://user-images.githubusercontent.com/124651311/226495029-ca423074-e894-41dd-a814-3ad586e4a390.png)
+![Imagen3](https://user-images.githubusercontent.com/124651311/226495036-677a3f7f-2ee2-4491-9d43-fdc27be47969.png)
+![Imagen4](https://user-images.githubusercontent.com/124651311/226495046-19c7e7c8-3c87-4afe-93bb-f0a426e5479c.png)
+![Imagen5](https://user-images.githubusercontent.com/124651311/226495057-be42b3f1-cbc5-4e31-b492-3f1591d1017b.png)
 
 
